@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RM1 Program</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <script src="validation.js"></script>
+
+</head>
+
+
+
+<body>
+
+    <div class="topnav">
+        <img src="images/iium2.png" class="logoiium">
+       
+        <a href="#contactus">Contact us</a>
+
+        <a href="#form">Form</a>
+
+        <a href="#welcome">Welcome</a>
+
+        
+      </div>
+
+
+    <div class="container">
+        
+<div class="slides slide1" id="welcome">
+    <img src="images/donation.png">
+<h2>Welcome to the RM1 Program!</h2>
+<h3>Let your contributions be perpetual for the pleasure of Allah
+    SWT</h3>
+
+    <h5>The example of those who spend their wealth in the cause of Allah is that of a grain that sprouts into seven ears, each bearing one hundred grains. And Allah multiplies ˹the reward even more˺ to whoever He wills. For Allah is All-Bountiful, All-Knowing. (Al-Baqara:241)
+</h5>
+
+</div>
+
+
+<div class="slides slide2" id="form">
+
+    <h2>PARTICIPATION IN RM1 CAMPAIGN- MONTHLY SALARY DEDUCTION FORM
+    </h2>
+
+
+    <form name="myForm" action="main.html" onsubmit="return formValidation()" method="post">
+        
+        <div class="row">
+          <div class="col-25">
+            <label for="fname">Full Name</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="fname" name="firstname" placeholder="Eg: Ali bin.....">
+          </div>
+        </div>
+
+        <div class="row">
+            <div class="col-25">
+              <label for="staffno">Staff No.</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="staffno" name="firstname" placeholder="12345....">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="kcdio">K/C/D/I/O</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="kcdio" name="kdcio" >
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="col-25">
+              <label for="contactno">Contact No.</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="contactno" name="contactno" placeholder="0123456789....">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="emailid">E-Mail</label>
+            </div>
+            <div class="col-75">
+              <input type="email" id="emailid" name="emailid" placeholder="example@yahoo.com">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="kulliyah">Kulliyah</label>
+            </div>
+            <div class="col-75">
+              <select id="kulliyah" name="Kulliyah">
+                <option value="KICT">KICT</option>
+                <option value="KAED">KAED</option>
+                <option value="KENMS">KENMS</option>
+                <option value="AIKOL">AIKOL</option>
+                <option value="KOED">KOED</option>
+            </select>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-25">
+              <label for="dono">Donation Amount(RM)</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="dono" name="dono" placeholder="">
+            </div>
+          </div>
+
+        
+       
+
+        
+
+        <div class="row">
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+
+    
+    </div>
+     
+    <div class="slides slide3" id="contactus">
+        <div class="content">
+            <img src="images/contactimg2.png">
+
+            <div class="left-side">
+              <div class="address details">
+                <i class="fas fa-map-marker-alt"></i>
+                <div class="topic">Address</div>
+                <div class="text-one">IIUM ENDOWMENT FUND</div>
+                <div class="text-two">Level 03, Rectory</div>
+                <div class="text-one">Internation Islamic University Malaysia</div>
+                <div class="text-one">P.O. Box 10</div>
+                <div class="text-one">50728 Kuala Lumpur</div>
+
+              </div>
+              <div class="phone details">
+                <i class="fas fa-phone-alt"></i>
+                <div class="topic">Phone</div>
+                <div class="text-one">+03 6196 4268</div>
+              </div>
+              <div class="email details">
+                <i class="fas fa-envelope"></i>
+                <div class="topic">Email</div>
+                <div class="text-one">ief@iium.edu.my</div>
+              </div>
+
+              <div class="website details">
+                <i class="fab fa-chrome"></i>
+                <div class="topic">Website</div>
+<a href="https://www.iium.edu.my/ref">www.iium.edu.my/ref</a>
+       </div>
+
+       <div class="facebook details">
+        <i class="fab fa-facebook-square"></i>        <div class="topic">Facebook</div>
+<a href="https://www.facebook.com/ief.official/">www.facebook.com/ief.official</a>
+</div>
+
+        
+
+    </div>
+</body>
+</html>

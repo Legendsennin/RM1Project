@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+
+
+.container{
+   width: 100%; 
+   height: 100vh;
+   overflow-y: scroll;
+   scroll-snap-type: y mandatory;
+
+}
+
+.slides{
+    width: 100%; 
+   height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+    justify-content: center;
+
+gap: 25px;
+color: #fff;
+scroll-snap-align: start;
+
+}
+
+.slides img{
+width: 200px;
+}
+
+.slide1 h2{
+align-self:center;
+}
+
+.slide1 h5{
+  font-style:oblique; 
+  color: gold;
+  text-shadow: 4px 4px 2px rgb(117, 128, 36);
+
+}
+
+
+.slide1{
+    background: linear-gradient(454deg,#05672e,#aec939bb);
+    flex-direction: column;
+align-items: center;
+font-family:'Courier New', Courier, monospace;
+
+background-image: url(images/donationbg.jpg);
+background-size: cover;
+
+}
+
+
+
+
+.slide2{
+background-image: url(images/UIAMbg.jpg);
+
+
+}
+.slide2 h2{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+
+
+.slide3{
+  
+    background: linear-gradient(454deg,#3a1c71, #d76d77, #ffaf7b
+    );
+font-family: sans-serif;
+}
+
+.slide3 img{
+  width: 300px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #180a0a;
+    overflow: hidden;
+    top: 0;
+    position: fixed;
+    width: 100%;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+    
+    
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #adb304;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .logoiium{
+    position: fixed;
+    height: auto;
+    left: 0px;
+    width: 45px;
+  }
+
+
+
+
+
+
+  /* Style inputs, select elements and textareas */
+input[type=text], select, textarea, input[type=email]{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #c91414;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 100px 12px 0;
+  display: inline-block;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #c1a61d;
+  color: white;
+  padding: 12px 30px ;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  float: right;
+  margin-top: 10px;
+}
+
+/* Style the container */
+
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 5px;
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+h1, h2,h3,h4{
+  text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(0, 0, 0, 1);
+
+}
+label{
+  text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+
+}
+
+.slide3 .content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.slide3 .content {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  position: relative;
+}
+
+.content .details{
+  margin: 15px;
+  text-align: center;
+  color: #020101;
+}
+.content .details i{
+  font-size: 30px;
+  color: #1c0985;
+  margin-bottom: 10px;
+}
+.content .details .topic{
+  font-size: 18px;
+  font-weight: 500;
+  font-weight: bold
+}
+.content  .details .text-one,
+.content .details .text-two{
+  font-size: 14px;
+  color: #e2e2e3;
+}
+
